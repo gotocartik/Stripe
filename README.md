@@ -20,13 +20,14 @@ You can sign up for a Stripe account at https://stripe.com.
 
 PHP 5.4.0 and later.
 
-<b>Composer</b>
-You can install the bindings via Composer. Run the following command:
+<b>Composer</b> <br>
+
 You can install the bindings via Composer. Run the following command:
 
  `composer require stripe/stripe-php`
  <hr> 
- <b>Dependencies</b>
+ <b>Dependencies</b> <br>
+ 
 The bindings require the following extensions in order to work properly:
 
 `curl`, although you can use your own non-cURL client if you prefer
@@ -37,9 +38,9 @@ If you use Composer, these dependencies should be handled automatically. If you 
 <b>Getting Started</b>
 Simple usage looks like:
 
-`\Stripe\Stripe::setApiKey('sk_test_BQokikJOvBiI2HlWgH4olfQ2'); <br>
-$charge = \Stripe\Charge::create(['amount' => 2000, 'currency' => 'usd', 'source' => 'tok_189fqt2eZvKYlo2CTGBeg6Uq']);<br>
-echo $charge;`
+`\Stripe\Stripe::setApiKey('sk_test_BQokikJOvBiI2HlWgH4olfQ2'); `<br>
+`$charge = \Stripe\Charge::create(['amount' => 2000, 'currency' => 'usd', 'source' => 'tok_189fqt2eZvKYlo2CTGBeg6Uq']);` <br>
+`echo $charge;`
 
 <b>Documentation</b>
 Please see <a href="https://stripe.com/docs/api">https://stripe.com/docs/api</a> for up-to-date documentation.
