@@ -3,7 +3,7 @@
   
  <br>
  Stripe Payment with Curl Functions :-) 
- <br>
+ <br><br>
 <img src="https://stripe.com/img/about/logos/logos/black@2x.png" width="200">
 <br><br>
 
