@@ -1,10 +1,11 @@
 <hr>
-<b>Stripe<b>
+<b>Stripe</b>
   
  <br>
  Stripe Payment with Curl Functions :-) 
+ <br>
 <img src="https://stripe.com/img/about/logos/logos/black@2x.png" width="200">
-<br>
+<br><br>
 
 - <a href="https://stripe.com/" target="_blank">Sign up</a> or log into your <a href="https://manage.stripe.com" target="_blank">dashboard</a>
 - Click on your profile and click on Account Settings
@@ -15,17 +16,17 @@
 
 You can sign up for a Stripe account at https://stripe.com.
 
-Requirements
+<b>Requirements</b>
 
 PHP 5.4.0 and later.
 
-Composer
+<b>Composer</b>
 You can install the bindings via Composer. Run the following command:
 You can install the bindings via Composer. Run the following command:
 
  `composer require stripe/stripe-php`
- 
- Dependencies
+ <hr> 
+ <b>Dependencies</b>
 The bindings require the following extensions in order to work properly:
 
 `curl`, although you can use your own non-cURL client if you prefer
@@ -36,11 +37,11 @@ If you use Composer, these dependencies should be handled automatically. If you 
 <b>Getting Started</b>
 Simple usage looks like:
 
-`\Stripe\Stripe::setApiKey('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
-$charge = \Stripe\Charge::create(['amount' => 2000, 'currency' => 'usd', 'source' => 'tok_189fqt2eZvKYlo2CTGBeg6Uq']);
+`\Stripe\Stripe::setApiKey('sk_test_BQokikJOvBiI2HlWgH4olfQ2'); <br>
+$charge = \Stripe\Charge::create(['amount' => 2000, 'currency' => 'usd', 'source' => 'tok_189fqt2eZvKYlo2CTGBeg6Uq']);<br>
 echo $charge;`
 
-Documentation
+<b>Documentation</b>
 Please see <a href="https://stripe.com/docs/api">https://stripe.com/docs/api</a> for up-to-date documentation.
  
  
